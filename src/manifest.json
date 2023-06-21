@@ -7,7 +7,8 @@
     "description": "This extension replaces the link in the top left of the defined Moodle-page with your dashboard",
     "content_scripts": [{
         "js": ["extension.js"],
-        "matches": ["https://moodle2.nordakademie.de/*"]
+        "matches": ["https://moodle2.nordakademie.de/*"],
+        "exclude_matches": ["https://moodle2.nordakademie.de/pluginfile*"]
     }]
 
 
