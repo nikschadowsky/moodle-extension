@@ -15,5 +15,7 @@ for(let elem of links){
 
 
 // replace homepage link
-document.getElementsByClassName("navbar-brand aabtn has-logo")[0].href ="https://moodle2.nordakademie.de/my/"
+homepage = document.getElementsByClassName("navbar-brand aabtn has-logo")[0]
+old = homepage.href
 
+homepage.href = old + "my/"
