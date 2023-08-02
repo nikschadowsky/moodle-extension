@@ -12,3 +12,5 @@ This Project is currently not receiving any support due to it being finished.
 3. Configure Pages where this Extension is enabled
 4. Pack a new Chrome Extension within Chrome's Extension Manager using the 'src' directory
 5. Enable it and have fun i guess
+
+It seems like it's kinda pointless now since Moodle-Update to Version 4 changed the Homepage Hyperlink to the Dashboard. But opening files still works as intended.
