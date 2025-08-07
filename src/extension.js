@@ -11,3 +11,12 @@ for (let link of links) {
         link.setAttribute("rel", "noreferrer noopener");
     }
 }
+setTimeout(() => {
+    const eyeAble = document.getElementById("eyeAble_container_ID");
+    eyeAble.remove();
+
+    const langSelects = document.getElementsByTagName("translation-select");
+    for(let langSelect of langSelects) {
+        langSelect.remove();
+    }
+}, 2000);
